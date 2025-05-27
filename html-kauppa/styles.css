@@ -1,0 +1,940 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(OpenSans.ttf);
+}
+p {
+    color: black;
+    font-size: 20px;
+}
+img {
+
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+
+.BANNER {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+.KOKONAISUUS {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .HEADER:hover {
+background-color: red;
+} */
+
+.HEADER {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+    padding-left: 60px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.HEADER__UPPER {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HEADER__UPPER__LOGO {
+    display: flex;
+    margin: 0px;
+    border-radius: 50%;
+    margin: 10px 10px 0 10px;
+}
+.HEADER__SEARCH__LOGO {
+
+}
+
+.HEADER__SEARCH__INPUT {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(26, 30, 33);
+    color: white;
+    border: 0;
+    padding-left: 40px;
+    width: 100%;
+    height: 100%;
+}
+.YHTEISÖT__CONTENT__LINK {
+    width: 24px;
+    height: 24px;
+}
+.YHTEISÖT__CONTENT__IMAGE {
+    width: 24px;
+    height: 24px;
+}
+.YHTEISÖT__CONTENT__IMAGE:hover {
+
+}
+.HEADER__SEARCH__BANNER {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(26, 30, 33);
+    color: white;
+    flex: 1 1 auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: -35px;
+    border: solid 2px gray;
+    align-items: center;
+    position: relative;
+    height: 50px;
+}
+
+.HEADER__SEARCH__IMAGE {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.HEADER__LOG {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    height: 50px;
+}
+
+
+.HEADER__LOG:hover {
+    fill: green;
+   
+}
+
+.HEADER__LOG__CONTENT:hover {
+    background-color: white;
+    
+}
+
+.HEADER__LOG__CONTENT {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px;
+    padding: 13px;
+    border-radius: 2%;
+}
+
+.HEADER__LOG__CONTENT__BUTTON {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    margin: 0px 10px 0px 10px;
+    padding: 6px 12px 6px 12px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.HEADER__LOWER {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    flex: 1;
+
+}
+
+.HEADER__CATEGORIES__CATEGORY {
+    display: flex;
+    flex-direction: column;
+    font-size: .875rem;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.HEADER__CATEGORIES__CATEGORY__LINK:hover {
+    background-color: white;
+}
+
+.HEADER__CATEGORIES__CATEGORY__LINK {
+    display: flex;
+    flex-direction: row;
+    font-size: .875rem;
+    padding: 10px;
+}
+
+.FOOTER {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+@media (max-width: 990px) {
+    .FOOTER {
+        display: flex;
+       
+    }
+}
+
+.FOOTER__CONTENT {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+}
+
+
+.FOOTER__UPPER {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 0 40px 0px;
+    font-size: 0.86rem;
+    align-items: baseline;
+}
+
+.ASIAKASPALVELU {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px black;
+    font-size: 1rem;
+
+}
+
+.ASIAKASPALVELU__TITLE {
+    margin-bottom: 10px;
+
+}
+
+.ASIAKASPALVELU__CONTENT {
+    padding: 0px;
+    display: flex;
+}
+
+
+.ASIAKASPALVELU__CONTENT__LINKS {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+
+}
+
+.ASIAKASPALVELU__CONTENT__DAYS {
+    display: flex;
+    padding: 0px;
+    font-size: 0.86rem;
+    margin-bottom: 10px;
+}
+
+.ASIAKASPALVELU__CONTENT__TIMES {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 0.86rem;
+}
+.ASIAKASPALVELU__CONTENT__TIMES {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 0.86rem;
+}
+.ASIAKASPALVELU__CONTENT__TIMES__TIME {
+    padding-left: 42px;
+}
+.ASIAKASPALVELU__CONTENT__NUMB {
+    display: flex;
+    margin-left: 10px;
+}
+
+.ASIAKASPALVELU__CONTENT__MAIL {
+    display: flex;
+    margin-left:  10px;
+}
+
+.YRITYSMYYNTI {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px black;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.IKONI {
+    display: flex;
+}
+.ICONS__PHONE {
+    display: flex;
+}
+.YRITYSMYYNTI__TITLE {
+    padding-bottom: 10px;
+
+}
+
+.YRITYSMYYNTI__CONTENT {
+    padding: 0px;
+
+}
+
+.YRITYSMYYNTI__CONTENT__DAYS {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.YRITYSMYYNTI__CONTENT__TIME {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.YRITYSMYYNTI__CONTENT__NUMB {
+    display: flex;
+    margin-left: 10px;
+}
+
+.YRITYSMYYNTI__CONTENT__MAIL {
+    display: flex;
+    margin-left: 10px
+
+}
+
+.YRITYSMYYNTI__CONTENT__LINKS {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+
+}
+@media (max-width: 990px) {
+    .FOOTER__UPPER__COLUMN {
+        display: flex;
+    }
+}
+
+.FOOTER__UPPER__COLUMN {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex: 1;
+    padding-right: 10px;
+}
+
+
+
+.MYYMÄLÄ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+
+
+}
+
+.MYYMÄLÄ__TITLE {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+
+}
+
+.MYYMÄLÄ__CONTENT__AUKIOLOAJAT {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding: 0px;
+    font-size: 0.86rem;
+
+}
+.MYYMÄLÄ__CONTENT__AUKIOLOAJAT__AUKIOLOAIKA__TIMES1 {
+    display: flex;
+    padding-left: 30px;
+}
+.MYYMÄLÄ__CONTENT__AUKIOLOAJAT__AUKIOLOAIKA__TIMES2 {
+    display: flex;
+    padding-left: 57px;
+}
+.MYYMÄLÄ__CONTENT__AUKIOLOAJAT__AUKIOLOAIKA__AJAT {
+    display: flex;
+}
+
+.MYYMÄLÄ__CONTENT__AUKIOLOAJAT__AUKIOLOAIKA {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    
+
+}
+
+.MYYMÄLÄ__CONTENT {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+    margin-top: 10px;
+}
+
+
+.MYYMÄLÄ__CONTENT__MAKSUVÄLINEET {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.MYYMÄLÄ__CONTENT__ADDRESS__ICON {
+
+}
+.MYYMÄLÄ__CONTENT__ADDRESS {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    align-items: center;
+}
+.MYYMÄLÄ__CONTENT__ADDRESS__ADDRESS {
+
+}
+.YHTEISÖT {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-bottom: solid 1px black;
+    font-size: 1rem;
+}
+
+.YHTEISÖT__TITLE {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+
+}
+
+.YHTEISÖT__CONTENT__LOGOJA {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.86rem;
+    gap: 10px;
+}
+
+.FOOTER__UPPER__RIGHT__RIGHT {
+    display: flex;
+    flex-direction: column;
+}
+
+.UUTISKIRJE {}
+
+.UUTISKIRJE__TITLE {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: start;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+
+}
+
+.UUTISKIRJE__CONTENT__TEXT {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0px;
+    font-size: 0.86rem;
+}
+
+.UUTISKIRJE__CONTENT__BUTTON {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: orange;
+    color: white;
+    font-size: 1rem;
+    border: 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.FOOTER__MID {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: solid 1px gray;
+    padding-top: 10px;
+}
+
+.FOOTER__MID__COLUMN {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.INFO {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+
+}
+
+.INFO__TITLE {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+
+}
+
+.INFO__CONTENT {
+    display: flex;
+    flex-direction: column;
+}
+
+.INFO__CONTENT__LINKS {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    font-size: 0.86rem;
+}
+
+.INFO__CONTENT__LINKS__LINK {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.INFO__CONTENT__LINKS__LINKS {
+    margin-left: 10px;
+}
+.FOOTER__MID__LEFT {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.SHOP__IN__SHOPS {
+    display: flex;
+    flex-direction: row;
+}
+
+.SHOP__IN__SHOPS__TITLE {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    
+
+}
+.SHOP__UPPER {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-bottom: 10px;
+}
+.SHOP__LOWER {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.SHOP__IN__SHOPS__CONTENT {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+}
+.asd{
+
+}
+.asd2{
+
+}
+.SHOP__IN__SHOPS__CONTENT::after {
+    content: "|";
+    margin: 0 5px;
+}
+.SHOP__IN__SHOPS__CONTENT:last-child::after {
+    content: none;
+    
+}
+.SHOP__IN__SHOPS__CONTENT__LINKS {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+
+}
+
+.ARTIKKELIT__JA__BLOGI {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.FOOTER__MID__RIGHT {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.ARTIKKELIT__JA__BLOGI__TITLE {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.ARTIKKELIT__JA__BLOG__CONTENT__LINKS {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+.ARTIKKELIT__JA__BLOG__CONTENT {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: stretch;
+    margin-bottom: 5px;
+
+}
+
+.FOOTER__MID__RIGHT__RIGHT {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.SERTIFIKAATIT__JA__PALKINNOT__TITTLE {
+    display: flex;
+    margin-bottom: 10px;
+    
+
+}
+
+.SERTIFIKAATIT__JA__PALKINNOT__CONTENT {
+    display: flex;
+    padding-left: 0px;
+    border-radius: 50%;
+    justify-content: start;
+
+}
+
+.FOOTER__LOW {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.FOOTER__LOW__CONTENT {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 16px;
+
+}
+
+.FOOTER__LOW__CONTENT {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.CONTENTS {
+    display: flex;
+    min-height: 14px;
+    max-height: 14px;
+    min-width: 100%;
+    max-width: 100%;
+
+}
+
+@media (max-width: 1200px) {
+    .FOOTER__UPPER__COLUMN {
+        padding-top: 25px;
+        
+    }
+    .FOOTER__CONTENT {
+
+        padding: 0%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .HEADER__UPPER {
+        font-size: 2px;
+        left: -60px;
+        position: inherit;
+
+    }
+}
+
+@media (max-width: 1200px) {
+    .HEADER__CATEGORIES__CATEGORY {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .KOKONAISUUS {
+
+
+
+
+    }
+}
+
+@media (max-width: 500px) {
+    .KOKONAISUUS {
+
+
+
+
+    }
+}
+
+.HEADER__UPPER__MENU__ICON {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .HEADER__UPPER__MENU__ICON {
+        display: inline;
+        width: 36.6px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .HAMBURGER {
+        display: inline;
+        
+    }
+}
+
+.LOG__ICON {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .LOG__ICON {
+        display: inline;
+        width: 21px;
+        height: 21px;
+    }
+}
+.HEADER__LOG__CONTENT__ICON {
+    width: 24px;
+    margin-right: 10px;
+}
+.HEADER__LOG__CONTENT__ICON--vaalea {
+    display: flex;
+    
+}
+.HEADER__LOG__CONTENT:hover .HEADER__LOG__CONTENT__ICON--vaalea {
+    display: none;
+}
+.HEADER__LOG__CONTENT__ICON--tumma {
+    display: none;
+}
+.HEADER__LOG__CONTENT:hover .HEADER__LOG__CONTENT__ICON--tumma {
+    display: flex;
+    
+}
+.HEADER__LOG__CONTENT__TEXT {
+
+}
+.HEADER__LOG__CONTENT__TEXT:hover {
+    color: black;
+}
+.HEADER__LOG__CONTENT__BUTTON__ICON {
+    width: 21px;
+    height: 21px;
+}
+ .HEADER__LOG__CONTENT__BUTTON__ICON--vaalea {
+    display: flex;
+}
+.HEADER__LOG__CONTENT__BUTTON:hover .HEADER__LOG__CONTENT__BUTTON__ICON--vaalea {
+    display: none;
+}
+.HEADER__LOG__CONTENT__BUTTON__ICON--tumma {
+    display: none;
+}
+.HEADER__LOG__CONTENT__BUTTON:hover .HEADER__LOG__CONTENT__BUTTON__ICON--tumma {
+    display: flex;
+    background-color: white;
+}
+.HEADER__LOG__CONTENT__BUTTON:hover {
+    background-color: white;
+
+}
+.HEADER__CATEGORIES__CATEGORY__LINK:hover {
+    color: orange;
+}
+@media (max-width: 1200px) {
+    .HEADER__LOG__CONTENT {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .HEADER__LOG__CONTENT__BUTTON {
+        border: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .HEADER__UPPER__LOGO {
+        margin: 0;
+        border-radius: 50px;
+        
+    }
+}
+
+@media (max-width: 500px) {
+    .HEADER__UPPER {
+        font-size: 2px;
+        left: -60px;
+        position: inherit;
+    }
+}
+
+@media (max-width: 1200px) {
+    .HEADER__LOWER {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    .HEADER__SEARCH {
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .FOOTER__MID__COLUMN {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .UUTISKIRJE__CONTENT__BUTTON {
+        margin-top: 20px;
+    }
+    .YHTEISÖT {
+        margin-top: 10px;
+    }
+    .ASIAKASPALVELU {
+        margin-bottom: 10px;
+    } 
+    .FOOTER__UPPER {
+        padding-top: 0px;
+    }
+    .MYYMÄLÄ__CONTENT__ADDRESS {
+        margin-top: 10px;
+    }
+    .SERTIFIKAATIT__JA__PALKINNOT__TITTLE {
+        display: none;
+    }
+    .SERTIFIKAATIT__JA__PALKINNOT__CONTENT {
+        display: none;
+    }
+    .FOOTER__MID {
+        flex-direction: column;
+    }
+    .FOOTER__UPPER {
+        flex-direction: column;
+    }
+    .HEADER__UPPER__LOGO {
+        margin-right: 90px;
+        height: 40px;
+        margin-left: -15px;
+        border-radius: 50px;
+    } 
+    .HEADER__LOG__CONTENT__BUTTON {
+        padding: 0%;
+        margin: 0%;
+        min-width: 21px;
+        min-height: 21px;
+    }
+    .HEADER__LOG {
+        padding: 0%;
+        margin: 0%;
+        margin-right: 10px;
+    }
+    .HEADER {
+        padding: 0px;
+    }
+    .HEADER__UPPER {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        
+    }
+    .HEADER__SEARCH__BANNER {
+        order: 10;
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+}
+
+
+.HEADER__SEARCH__LOGO {}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
