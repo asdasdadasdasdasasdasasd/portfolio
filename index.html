@@ -1,9 +1,92 @@
-<h1>Portfolio</h1>
-<ul>
-    <li>
-        <a href="/portfolio/svelte-kauppa">Svelte-kauppa (Tekniikat: Html, CSS ja Svelte)</a>
-    </li>
-    <li>
-        <a href="/portfolio/html-kauppa">html-kauppa (Tekniikat: Html, CSS)</a>
-    </li>
-</ul>
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h2 {
+            margin-bottom: 0;
+        }
+
+        h3 {
+            margin-top: 5px;
+        }
+
+        ul {
+            background-color: #212830;
+            list-style: none;
+            padding: 1px 40px 1px 40px;
+            margin: 0 5px 0 5px;
+        }
+
+        p {
+            margin: 20px;
+        }
+
+        .UPPER {
+            padding: 15px 0 15px 0;
+        }
+
+        .LOWER {
+            padding: 15px 0 15px 0;
+        }
+
+        .button {
+            padding: 10px 15px;
+            border-radius: 10px;
+            background-color: #3f4a56;
+            text-decoration: none;
+            color: white;
+            transition: background-color 0.5s ease;
+            box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05), 0 4px 12px rgba(0, 0, 0, 0.3);
+            border: 1px solid #8b949e;
+        }
+
+        .button:hover {
+            background-color: #58626d;
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Portfolio</h1>
+        <ul>
+            <li>
+                <h2>Harjoitus: pieniä kopiota nettikaupan etusivusta</h2>
+                <h3>Referenssi: www.jimms.fi</h3>
+                <ul>
+                    <li class="UPPER">
+                        <a href="/portfolio/svelte-kauppa" class="button">Svelte-kauppa</a>
+                        <p>
+                            Valmistunut: toukokuu 2025
+                        </p>
+                        <p>
+                            Tekniikat: HTML, CSS ja Svelte/JavaScript
+
+                        </p>
+                    </li>
+                    <li class="LOWER">
+                        <a href="/portfolio/html-kauppa" class="button">HTML-kauppa</a>
+                        <p>Valmistunut: maaliskuu 2025</p>
+                        <p>
+                            Tekniikat: HTML ja CSS
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
